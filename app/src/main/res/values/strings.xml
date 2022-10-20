@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fake call</string>
+    <string name="callerPictureButton">imageBtn</string>
+    <string name="caller_name">Caller Name</string>
+    <string name="caller_number">Caller Number</string>
+    <string name="timerTime">5 Seconds Later</string>
+    <string name="done">Done</string>
+    <string name="todo">TODO</string>
+    <string name="phoneNumber">0935440615</string>
+    <string name="timecounter">00:00</string>
+    <string name="declinebutton">declineButton</string>
+
+</resources>

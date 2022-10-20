@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallScreenActivity"
+    android:background="@drawable/call_screen_background">
+
+    <ImageButton
+        android:id="@+id/btn_accept"
+        android:layout_width="81dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/round_btn_accept"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_call_24" />
+
+
+    <ImageButton
+        android:id="@+id/btn_decline"
+        android:layout_width="81dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_call_end_24" />
+
+
+    <TextView
+        android:id="@+id/tvCallerNumberDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/caller_number"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/tvCallerNameDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:imeOptions="actionNext"
+        android:text="@string/caller_name"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        tools:ignore="TextViewEdits" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
